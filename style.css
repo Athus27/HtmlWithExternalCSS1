@@ -60,6 +60,7 @@ a{
 
 
 .imagem {
+    margin-left: 1%;
     width: 50%;
     border: 10px solid #a4a16b ;
 }
