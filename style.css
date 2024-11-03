@@ -1,3 +1,14 @@
+:root {
+    /* --cor_de_fundo: #f7f2d7;  */
+    --cor_de_fundo: #faf7e4; 
+}
+
+:root {
+    /* --cor_de_fundo: #f7f2d7;  */
+    --cor_secundaria: #cdcba5; 
+}
+
+
 body {
     width: 75%;
     height: 100%;
@@ -6,7 +17,7 @@ body {
 
 img {
     border-width: 0px 0px 3px 0px;
-    border-color: #fcefb5;
+    border-color: var(--cor_secundaria);
 
     border-style: dotted;
 }
@@ -22,15 +33,15 @@ p{
     text-indent: 1%;
     color: black;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #fcefb5;
+    background-color: var(--cor_de_fundo);
 }
 
 
 h1{
     text-indent: 1%;
-    background-color: #fcefb5;
+    background-color: var(--cor_de_fundo);
     margin-bottom: 1%;
-    color: #a4a16b;
+    color: var(--cor_secundaria);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 a{  
@@ -45,24 +56,24 @@ a{
 .titulo{
     margin-left: 1%;
     font-weight: bold;
-    color:#a4a16b ;
+    color: var(--cor_secundaria) ;
 }
 
 .descricao{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #fcefb5;
+    background-color: var(--cor_de_fundo);
 }
 
 .container{
     margin: 0;
-    background-color: #a4a16b;
+    background-color: var(--cor_secundaria);
 }
 
 
 .imagem {
     margin-left: 1%;
     width: 50%;
-    border: 10px solid #a4a16b ;
+    border: 10px solid var(--cor_secundaria) ;
 }
 
 
@@ -74,7 +85,7 @@ a{
     margin-bottom: 1%;
     font-size: x-large;
     color: rgb(61, 3, 137);
-    background-color: #a4a16b;
+    background-color: var(--cor_secundaria);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
